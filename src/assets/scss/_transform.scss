@@ -1,0 +1,55 @@
+#transform {
+  width: 100%;
+  height: 100vh;
+  background: $dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden !important;
+  .img_section {
+    width: 90%;
+  }
+  .content {
+    h1 {
+      color: $light;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 10px 0px;
+        color: $light;
+        list-style: none;
+        span {
+          color: $blue;
+        }
+      }
+    }
+    .btn_first {
+      background: $blue;
+      padding: 8px 20px;
+      color: $light;
+    }
+    .btn-simple {
+      color: $light;
+    }
+  }
+}
+
+#join {
+  background: rgba($blue, 0.75);
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  h2 {
+    color: $light;
+  }
+  .btn_first {
+    background: $dark;
+    padding: 8px 20px;
+    color: $light;
+  }
+}

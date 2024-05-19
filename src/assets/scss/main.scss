@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "_navbar.scss", "_Hero.scss", "_colors.scss", "_programe.scss",
+  "_transform.scss", "_pricing.scss", "_testimonial.scss", "_contact.scss",
+  "_footer.scss";
+body {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.headingText {
+  font-size: 4vw;
+}
+@media (max-width: 750px) {
+  #home {
+    .content h1 {
+      font-size: 5vw;
+    }
+  }
+  #testimonial {
+    height: 100%;
+    padding: 15% 0;
+  }
+}
